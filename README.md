@@ -22,4 +22,6 @@ PassengerId|Survived|Pclass|Name|Sex|Age|SibSp|Parch|Ticket|Fare|Cabin|Embarked
 For this competition I filled in missing age, embarkment port and fare price values with the mean of similar passengers. I then turned categorical data into nomeric ordinal values and left continuous numerical values unchanged.
 
 # Predictions
-I used five models for training and prediction: logistic regression, random forrest, support vector, k nearest neighbors and gaussian naive bayes. Of these, gaussian naive bayes performed the best with a 79% accuracy. I also tried taking a weighted average of the model's predictions but this resulted in a slightly lower performance.
+I used five models for training and prediction: logistic regression, random forrest, support vector, k nearest neighbors and gaussian naive bayes. Of these, gaussian naive bayes performed the best with a 78.5% accuracy. I also tried taking a weighted average of the model's predictions but this resulted in a slightly lower performance.
+
+Later I took a class on [dataquest.io](dataquest.io) concerning kaggle competitions and made a new project using recursive feature elimination and grid search with cross validation and beat my previous record with an optimized random forest classifier. My new high score is 79.4%
